@@ -3,7 +3,7 @@ include "../conexion.php";
 if (!empty($_POST)) {
   $alert = "";
   if (empty($_POST['nombre']) || empty($_POST['telefono']) || empty($_POST['direccion'])) {
-    $alert = '<p class"error">Todo los campos son requeridos</p>';
+    $alert = '<p class"error">Todos los campos son requeridos</p>';
   } else {
     $idcliente = $_POST['id'];
     $dni = $_POST['dni'];
@@ -20,7 +20,7 @@ if (!empty($_POST)) {
     }
 
     if ($resul >= 1) {
-      $alert = '<p class"error">El dni ya existe</p>';
+      $alert = '<p class"error">La Cédula ya existe</p>';
     } else {
       if ($dni == '') {
         $dni = 0;

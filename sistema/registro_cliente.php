@@ -20,7 +20,7 @@ if (!empty($_POST)) {
         }
         if ($result > 0) {
             $alert = '<div class="alert alert-danger" role="alert">
-                                    El dni ya existe
+                                    La Cédula ya existe
                                 </div>';
         } else {
             $query_insert = mysqli_query($conexion, "INSERT INTO cliente(dni,nombre,telefono,direccion, usuario_id) values ('$dni', '$nombre', '$telefono', '$direccion', '$usuario_id')");
@@ -54,8 +54,8 @@ if (!empty($_POST)) {
             <form action="" method="post" autocomplete="off">
                 <?php echo isset($alert) ? $alert : ''; ?>
                 <div class="form-group">
-                    <label for="dni">Dni</label>
-                    <input type="number" placeholder="Ingrese dni" name="dni" id="dni" class="form-control">
+                    <label for="dni">Cédula</label>
+                    <input type="number" placeholder="Ingrese cédula" name="dni" id="dni" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="nombre">Nombre</label>

@@ -28,7 +28,7 @@
 		$pdf->Ln();
 		$pdf->image("img/logo.jpg", 50, 18, 15, 15, 'JPG');
 		$pdf->SetFont('Arial', 'B', 7);
-		$pdf->Cell(15, 5, "Ruc: ", 0, 0, 'L');
+		$pdf->Cell(15, 5, "Rif: ", 0, 0, 'L');
 		$pdf->SetFont('Arial', '', 7);
 		$pdf->Cell(20, 5, $resultado['dni'], 0, 1, 'L');
 		$pdf->SetFont('Arial', 'B', 7);
@@ -40,7 +40,7 @@
 		$pdf->SetFont('Arial', '', 7);
 		$pdf->Cell(20, 5, utf8_decode($resultado['direccion']), 0, 1, 'L');
 		$pdf->SetFont('Arial', 'B', 7);
-		$pdf->Cell(15, 5, "Ticked: ", 0, 0, 'L');
+		$pdf->Cell(15, 5, "Ticket: ", 0, 0, 'L');
 		$pdf->SetFont('Arial', '', 7);
 		$pdf->Cell(20, 5, $noFactura, 0, 0, 'L');
 		$pdf->SetFont('Arial', 'B', 7);
