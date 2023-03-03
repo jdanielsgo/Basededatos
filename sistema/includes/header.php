@@ -72,7 +72,7 @@ if ($result_data > 0) {
 			<!-- Main Content -->
 			<div id="content">
 				<!-- Topbar -->
-				<nav class="navbar navbar-expand navbar-light bg-primary text-white topbar mb-4 static-top shadow">
+				<nav class="navbar navbar-expand navbar-light bg-success text-white topbar mb-4 static-top shadow">
 
 					<!-- Sidebar Toggle (Topbar) -->
 					<button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -80,7 +80,7 @@ if ($result_data > 0) {
 					</button>
 					<div class="input-group">
 						<h4>Sistema de Inventario</h4>
-						<p class="ml-auto"><strong>Mérida, </strong><?php echo fechaPeru(); ?></p>
+						<p class="ml-auto"><strong>Mérida, </strong><?php echo fechaVzla(); ?></p>
 					</div>
 
 					<!-- Topbar Navbar -->

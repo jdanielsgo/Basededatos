@@ -95,7 +95,7 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<div class="card">
-				<div class="card-header bg-primary text-white">
+				<div class="card-header bg-success text-white">
 					Información Personal
 				</div>
 				<div class="card-body">
@@ -112,7 +112,7 @@
 						<label>Usuario: <strong><?php echo $_SESSION['user']; ?></strong></label>
 					</div>
 					<ul class="list-group">
-						<li class="list-group-item active">Cambiar Contraseña</li>
+						<li class="list-group-item bg-success border-success active">Cambiar Contraseña</li>
 						<form action="" method=" post" name="frmChangePass" id="frmChangePass" class="p-3">
 							<div class="form-group">
 								<label>Contraseña Actual</label>
@@ -129,7 +129,7 @@
 							<div class="alertChangePass" style="display:none;">
 							</div>
 							<div>
-								<button type="submit" class="btn btn-primary btnChangePass">Cambiar Contraseña</button>
+								<button type="submit" class="btn btn-success btnChangePass">Cambiar Contraseña</button>
 							</div>
 						</form>
 					</ul>
@@ -139,7 +139,7 @@
 		<?php if ($_SESSION['rol'] == 1) { ?>
 			<div class="col-lg-6">
 				<div class="card">
-					<div class="card-header bg-primary text-white">
+					<div class="card-header bg-success text-white">
 						Datos de la Empresa
 					</div>
 					<div class="card-body">
@@ -174,7 +174,7 @@
 							</div>
 							<?php echo isset($alert) ? $alert : ''; ?>
 							<div>
-								<button type="submit" class="btn btn-primary btnChangePass"><i class="fas fa-save"></i> Guardar Datos</button>
+								<button type="submit" class="btn btn-success btnChangePass"><i class="fas fa-save"></i> Guardar Datos</button>
 							</div>
 
 						</form>
@@ -184,7 +184,7 @@
 		<?php } else { ?>
 			<div class="col-lg-6">
 				<div class="card">
-					<div class="card-header bg-primary text-white">
+					<div class="card-header bg-success text-white">
 						Datos de la Empresa
 					</div>
 					<div class="card-body">

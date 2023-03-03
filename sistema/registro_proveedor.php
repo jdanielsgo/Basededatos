@@ -44,7 +44,7 @@ mysqli_close($conexion);
     <!-- Content Row -->
     <div class="row">
         <div class="col-lg-6 m-auto">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header bg-success text-white">
                 Registro de Proveedor
             </div>
             <div class="card">
@@ -66,7 +66,7 @@ mysqli_close($conexion);
                         <label for="direccion">DIRECIÓN</label>
                         <input type="text" placeholder="Ingrese Direccion" name="direccion" id="direcion" class="form-control">
                     </div>
-                    <input type="submit" value="Guardar Proveedor" class="btn btn-primary">
+                    <input type="submit" value="Guardar Proveedor" class="btn btn-success">
                     <a href="lista_proveedor.php" class="btn btn-danger">Regresar</a>
                 </form>
             </div>

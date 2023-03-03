@@ -6,7 +6,7 @@
                         <div class="col-lg-12">
                             <div class="form-group">
                                 <h4 class="text-center">Datos del Cliente</h4>
-                                <a href="#" class="btn btn-primary btn_new_cliente"><i class="fas fa-user-plus"></i> Nuevo Cliente</a>
+                                <a href="#" class="btn btn-success btn_new_cliente"><i class="fas fa-user-plus"></i> Nuevo Cliente</a>
                             </div>
                             <div class="card">
                                 <div class="card-body">

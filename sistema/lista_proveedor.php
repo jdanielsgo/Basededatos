@@ -6,7 +6,7 @@
 	<!-- Page Heading -->
 	<div class="d-sm-flex align-items-center justify-content-between mb-4">
 		<h1 class="h3 mb-0 text-gray-800">Proveedores</h1>
-		<a href="registro_proveedor.php" class="btn btn-primary">Nuevo</a>
+		<a href="registro_proveedor.php" class="btn btn-success">Nuevo</a>
 	</div>
 
 	<div class="row">

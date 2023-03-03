@@ -44,8 +44,8 @@ if (!empty($_POST)) {
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Panel de Administración</h1>
-        <a href="lista_cliente.php" class="btn btn-primary">Regresar</a>
+        <h1 class="h3 mb-0 text-gray-800">Registrar Cliente</h1>
+        <a href="lista_cliente.php" class="btn btn-success">Regresar</a>
     </div>
 
     <!-- Content Row -->
@@ -69,7 +69,7 @@ if (!empty($_POST)) {
                     <label for="direccion">Dirección</label>
                     <input type="text" placeholder="Ingrese Direccion" name="direccion" id="direccion" class="form-control">
                 </div>
-                <input type="submit" value="Guardar Cliente" class="btn btn-primary">
+                <input type="submit" value="Guardar Cliente" class="btn btn-success">
             </form>
         </div>
     </div>

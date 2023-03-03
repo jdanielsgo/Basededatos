@@ -56,7 +56,7 @@ if (!empty($_SESSION['active'])) {
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-success">
 
   <div class="container">
     <!-- Outer Row -->
@@ -68,7 +68,7 @@ if (!empty($_SESSION['active'])) {
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
-              <div class="col-lg-6 d-none d-lg-block bg-login-image">
+              <div class="col-lg-6 d-none d-lg-block">
                 <img src="sistema/img/logo.jpg" class="img-thumbnail">
               </div>
               <div class="col-lg-6">
@@ -85,7 +85,7 @@ if (!empty($_SESSION['active'])) {
                       <label for="">Contraseña</label>
                       <input type="password" class="form-control" placeholder="Contraseña" name="clave">
                     </div>
-                    <input type="submit" value="Iniciar" class="btn btn-primary">
+                    <input type="submit" value="Iniciar" class="btn btn-success">
                     <hr>
                   </form>
                   <hr>

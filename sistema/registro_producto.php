@@ -32,8 +32,8 @@
 
    <!-- Page Heading -->
    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-     <h1 class="h3 mb-0 text-gray-800">Panel de Administración</h1>
-     <a href="lista_productos.php" class="btn btn-primary">Regresar</a>
+     <h1 class="h3 mb-0 text-gray-800">Registrar Producto</h1>
+     <a href="lista_productos.php" class="btn btn-success">Regresar</a>
    </div>
 
    <!-- Content Row -->
@@ -73,7 +73,7 @@
            <label for="cantidad">Cantidad</label>
            <input type="number" placeholder="Ingrese cantidad" class="form-control" name="cantidad" id="cantidad">
          </div>
-         <input type="submit" value="Guardar Producto" class="btn btn-primary">
+         <input type="submit" value="Guardar Producto" class="btn btn-success">
        </form>
      </div>
    </div>
